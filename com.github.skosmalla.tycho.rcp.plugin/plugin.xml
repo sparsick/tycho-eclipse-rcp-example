@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="com.github.skosmalla.tycho.rcp.plugin.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="com.github.skosmalla.tycho.rcp.plugin.Perspective"
+            id="com.github.skosmalla.tycho.rcp.plugin.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            name="Message"
+            allowMultiple="true"
+            icon="icons/sample2.gif"
+            class="com.github.skosmalla.tycho.rcp.plugin.View"
+            id="com.github.skosmalla.tycho.rcp.plugin.view">
+      </view>
+      <view
+            name="Mailboxes"
+            allowMultiple="true"
+            icon="icons/sample3.gif"
+            class="com.github.skosmalla.tycho.rcp.plugin.NavigationView"
+            id="com.github.skosmalla.tycho.rcp.plugin.navigationView">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="Mail"
+            id="com.github.skosmalla.tycho.rcp.plugin.category">
+      </category>
+      <command
+            name="Open Mailbox"
+            description="Opens a mailbox"
+            categoryId="com.github.skosmalla.tycho.rcp.plugin.category"
+            id="com.github.skosmalla.tycho.rcp.plugin.open">
+      </command>
+      <command
+            name="Open Message Dialog"
+            description="Open a message dialog"
+            categoryId="com.github.skosmalla.tycho.rcp.plugin.category"
+            id="com.github.skosmalla.tycho.rcp.plugin.openMessage">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="com.github.skosmalla.tycho.rcp.plugin.open"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+2">
+      </key>
+      <key
+            commandId="com.github.skosmalla.tycho.rcp.plugin.openMessage"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+3">
+      </key>
+      <key
+            commandId="org.eclipse.ui.file.exit"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+X">
+      </key>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.github.skosmalla.tycho.rcp.application"
+            name="Tycho RCP Sample Application">
+         <!--<property
+               name="appName">
+         </property>-->
+      </product>
+   </extension>
+
+</plugin>
