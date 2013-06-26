@@ -16,7 +16,7 @@
 		<module>com.github.skosmalla.tycho.rcp.feature</module>
 		<module>com.github.skosmalla.tycho.rcp.application</module>
 	</modules>
-	
+
 	<properties>
 		<tycho.version>0.18.0</tycho.version>
 		<tycho.groupid>org.eclipse.tycho</tycho.groupid>
@@ -33,7 +33,6 @@
 					<version>2.5</version>
 				</plugin>
 				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-dependency-plugin</artifactId>
 					<version>2.6</version>
 				</plugin>
