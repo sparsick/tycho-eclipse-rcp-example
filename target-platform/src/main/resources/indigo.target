@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.6"?>
+
+<target name="indigo" sequenceNumber="5">
+<locations>
+<location path="$third.party.location$" type="Directory"/>
+<location includeAllPlatforms="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.platform.ide" version="3.7.1.M20110909-1335"/>
+<unit id="org.eclipse.platform.sdk" version="3.7.1.M20110909-1335"/>
+<unit id="org.eclipse.rcp.feature.group" version="3.7.1.r37x_v20110729-9DB5FmNFnFLSFCtLxnRfMqt15A4A"/>
+<unit id="org.eclipse.rcp.source.feature.group" version="3.7.1.r37x_v20110729-9DB5FmNFnFLSFCtLxnRfMqt15A4A"/>
+<unit id="org.eclipse.sdk.ide" version="3.7.1.M20110909-1335"/>
+<unit id="org.eclipse.pde.api.tools.ee.javase17.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.jre11.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.osgiminimum11.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.osgiminimum12.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.j2se15.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.osgiminimum10.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.cdcfoundation11.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.cdcfoundation10.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.fragments.feature.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.javase16.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.j2se13.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.j2se14.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.releng.tools.feature.group" version="3.4.100.v20110503-4507s482aw31221929"/>
+<unit id="org.eclipse.riena.build.feature.sdk.feature.group" version="3.0.0.v20110614_3_0_0_0"/>
+<repository location="http://download.eclipse.org/eclipse/updates/3.7/"/>
+</location>
+<location includeAllPlatforms="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.platform.ide" version="3.7.1.M20110909-1335"/>
+<unit id="org.eclipse.platform.sdk" version="3.7.1.M20110909-1335"/>
+<unit id="org.eclipse.rcp.feature.group" version="3.7.1.r37x_v20110729-9DB5FmNFnFLSFCtLxnRfMqt15A4A"/>
+<unit id="org.eclipse.rcp.source.feature.group" version="3.7.1.r37x_v20110729-9DB5FmNFnFLSFCtLxnRfMqt15A4A"/>
+<unit id="org.eclipse.sdk.ide" version="3.7.1.M20110909-1335"/>
+<unit id="org.eclipse.pde.api.tools.ee.javase17.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.jre11.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.osgiminimum11.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.osgiminimum12.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.j2se15.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.osgiminimum10.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.cdcfoundation11.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.cdcfoundation10.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.fragments.feature.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.javase16.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.j2se13.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.pde.api.tools.ee.j2se14.group" version="1.0.200.r37x_v20110803-7D-FHkFAFkNZZO9PfBZStN"/>
+<unit id="org.eclipse.releng.tools.feature.group" version="3.4.100.v20110503-4507s482aw31221929"/>
+<unit id="org.eclipse.riena.build.feature.sdk.feature.group" version="3.0.0.v20110614_3_0_0_0"/>
+<repository location="http://download.eclipse.org/releases/indigo/"/>
+</location>
+</locations>
+</target>
