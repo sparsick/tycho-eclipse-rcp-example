@@ -94,9 +94,9 @@
 
 	<repositories>
 		<repository>
-			<id>eclipse-3-7-update-site</id>
+			<id>eclipse-4-6-update-site</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/eclipse/updates/3.7/</url>
+			<url>http://download.eclipse.org/eclipse/updates/4.6</url>
 		</repository>
 	</repositories>
 
