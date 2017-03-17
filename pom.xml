@@ -33,10 +33,6 @@
 					<artifactId>maven-resources-plugin</artifactId>
 					<version>2.5</version>
 				</plugin>
-				<plugin>
-					<artifactId>maven-dependency-plugin</artifactId>
-					<version>2.6</version>
-				</plugin>
 			</plugins>
 		</pluginManagement>
 		<plugins>
@@ -45,9 +41,8 @@
 				<artifactId>target-platform-configuration</artifactId>
 				<version>${tycho.version}</version>
 				<configuration>
-					<resolver>p2</resolver>
-					<pomDependencies>consider</pomDependencies>
-					<ignoreTychoRepositories>true</ignoreTychoRepositories>
+<!-- 					<resolver>p2</resolver> -->
+<!-- 					<ignoreTychoRepositories>true</ignoreTychoRepositories> -->
 					<environments>
 						<environment>
 							<os>win32</os>
@@ -55,6 +50,13 @@
 							<arch>x86_64</arch>
 						</environment>
 					</environments>
+					<target>
+						<artifact>
+							<groupId>com.github.skosmalla.tycho.rcp.example</groupId>
+							<artifactId>target-platform</artifactId>
+							<version>${project.version}</version>
+						</artifact>
+					</target>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -92,12 +94,5 @@
 		</plugins>
 	</build>
 
-	<repositories>
-		<repository>
-			<id>eclipse-4-6-update-site</id>
-			<layout>p2</layout>
-			<url>http://download.eclipse.org/eclipse/updates/4.6</url>
-		</repository>
-	</repositories>
-
+	
 </project>
