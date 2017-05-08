@@ -21,7 +21,7 @@
 	<properties>
 		<tycho.version>1.0.0</tycho.version>
 		<tycho.groupid>org.eclipse.tycho</tycho.groupid>
-		<java.version>1.7</java.version>
+		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
